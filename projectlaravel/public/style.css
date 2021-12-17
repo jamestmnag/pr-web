@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.hover:hover{
+ background-color: #0dcaf0;
+ color: white;
+
+}
+
+.ndmenu{
+ display: none;
+ 
+}
+li{
+   /* position: absolute; */
+}
+
+.hover {
+    position: relative;
+    cursor: pointer;
+}
+.hover:hover  .ndmenu{
+    display: block;
+    
+    color: tomato;
+    left: 0;
+    position: absolute;
+    border: 4px solid aquamarine;
+    list-style: none;
+
+    
+    
+}
